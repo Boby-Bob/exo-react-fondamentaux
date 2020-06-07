@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+label>input {
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 6px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 4px;
+}
+label>textarea {
+    width: 200px;
+    margin-bottom: 12px;
+    padding: 6px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 4px;
+}
+p {
+    display: block;
+    width: 200px;
+    text-align: left;
+    margin: 10px auto;
+}
+form>input {
+    width: min-content;
+    padding: 6px;
+    background-color: rgb(23, 143, 255);
+    border: 1px solid rgb(23, 143, 255);
+    border-radius: 4px;
+    color: white;
+}
